@@ -1,0 +1,12 @@
+*__pycache__/
+chkpt/
+*.ipynb_checkpoints*
+datahub/movielens1M/*.pkl
+datahub/movielens1M/*.dat
+datahub/movielens1M/*.csv
+datahub/taobaoAD/*.pkl
+datahub/taobaoAD/*.dat
+datahub/taobaoAD/*.csv
+datahub/item2users/*.pkl
+pretrain_backbones/*
+.idea

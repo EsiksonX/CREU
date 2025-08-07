@@ -1,0 +1,12 @@
+# defaults to CPU-only build of PyTorch 2.7.1
+# if you need GPU support (e.g. CUDA 12.8), uncomment the following torch line
+# and comment out the CPU line below:
+# torch==2.7.1+cu128 --index-url https://download.pytorch.org/whl/cu128
+
+torch==2.7.1+cpu --index-url https://download.pytorch.org/whl/cpu
+numpy==2.2.6
+pandas==2.3.0
+scipy==1.17.0
+scikit-learn==1.7.0
+geomloss==0.2.6
+pykeops==2.3
